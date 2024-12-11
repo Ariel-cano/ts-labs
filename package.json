@@ -1,0 +1,24 @@
+{
+  "name": "ts1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "laborat1": "tsc ./src/laborat1.ts && node ./dist/laborat1.js",
+    "laborat2": "tsc ./src/laborat2.ts && node ./dist/laborat2.js",
+    "laborat3": "tsc ./src/laborat3.ts && node ./dist/laborat3.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "global": "^4.4.0"
+  }
+}
